@@ -29,9 +29,6 @@ public class Carrito {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer carrito_id;
 
-    @Column(nullable = false)
-    private String estado_id;
-
     @Column(nullable = true)
     private Integer cantidad;
 

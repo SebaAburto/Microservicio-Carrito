@@ -27,6 +27,6 @@ public class Tipo_estado {
     private Integer tipo_estado_id;
 
     @Column(nullable = false)
-    private String descripcion;
+    private String descripcion; //activo, abandonado, finalizado
 
 }

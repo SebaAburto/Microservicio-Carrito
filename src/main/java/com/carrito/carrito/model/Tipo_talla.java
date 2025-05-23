@@ -30,3 +30,9 @@ public class Tipo_talla {
     private String descripcion;
 
 }
+
+//XS (Extra Small)
+//S (Small)
+//M (Medium)
+//L (Large)
+//XL (Extra Large)
