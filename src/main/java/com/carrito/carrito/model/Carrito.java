@@ -33,6 +33,9 @@ public class Carrito {
     private String estado_id;
 
     @Column(nullable = true)
+    private Integer cantidad;
+
+    @Column(nullable = true)
     private Date fecha_creacion;
     
     @Column(nullable = true)
@@ -44,5 +47,7 @@ public class Carrito {
     @OneToOne
     private Estado estado;
 
+    @ManyToMany
+    private Producto producto;
 }
 

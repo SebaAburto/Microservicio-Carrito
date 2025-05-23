@@ -41,14 +41,14 @@ public class Producto {
     @Column(nullable = false, length= 50)
     private String categoria;
 
-    @Column(nullable = false)
-    private Integer stock = 0;
+    @Column(nullable = false, length= 50)
+    private String color;
 
     @Column(nullable = true)
     private Date fecha_creacion;
     
     @OneToOne
-    private Tipo_talla Tipo_talla;
+    private Tipo_talla tipo_talla;
 
 }
 
