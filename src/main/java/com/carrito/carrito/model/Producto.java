@@ -1,4 +1,4 @@
-package com.carrito.carrito.model;
+package com.inventario.inventario.model;
 
 import java.util.Date;
 
@@ -27,26 +27,26 @@ public class Producto {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private Integer id;
+    private Integer producto_id;
 
-
-    @Column(unique = true, length= 13, nullable= false)
-    private String run;
-
-
-    @Column(nullable = false)
+    @Column(nullable = false, length= 100)
     private String nombre;
 
+    @Column(nullable = false)
+    private String descripcion;
 
     @Column(nullable = false)
-    private String apellido;
+    private double precio;
 
+    @Column(nullable = false, length= 50)
+    private String categoria;
+
+    @Column(nullable = false)
+    private Integer stock = 0;
 
     @Column(nullable = true)
-    private Date fecha;
+    private Date fecha_creacion;
    
-    @Column(unique=true,nullable = false)
-    private String correo;
 }
 
 

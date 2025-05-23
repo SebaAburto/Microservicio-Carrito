@@ -14,17 +14,17 @@ import lombok.NoArgsConstructor;
 
 
 @Entity
-@Table(name="Estado")
+@Table(name="Tipo_estado")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 
 
-public class Estado {
+public class Tipo_estado {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private Integer estado_id;
+    private Integer tipo_estado_id;
 
     @Column(nullable = false)
     private String descripcion;
