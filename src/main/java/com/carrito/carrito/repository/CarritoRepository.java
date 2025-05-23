@@ -1,6 +1,6 @@
 package com.carrito.carrito.repository;
 
-import com.Microservicio-Carrito.cl.Microservicio-Carrito.Carrito;
+import com.carrito.carrito.model.Carrito;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
