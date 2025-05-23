@@ -38,7 +38,7 @@ public class Carrito {
     @Column(nullable = true)
     private Date fecha_modificacion;
 
-    @OneToOne
+    @ManyToOne
     private Usuario usuario;
 
     @OneToOne

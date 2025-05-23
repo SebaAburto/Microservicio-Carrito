@@ -46,7 +46,10 @@ public class Producto {
 
     @Column(nullable = true)
     private Date fecha_creacion;
-   
+    
+    @OneToOne
+    private Tipo_talla Tipo_talla;
+
 }
 
 

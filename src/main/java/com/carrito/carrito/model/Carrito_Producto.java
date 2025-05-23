@@ -13,7 +13,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
-
+//TABLA DE RELACION
 
 @Entity
 @Table(name="Carrito_Producto")
@@ -36,8 +36,8 @@ public class Carrito_Producto {
     @OneToMany
     private Producto producto;
 
-    @OneToOne
-    private Estado estado;
+    @OneToMany
+    private Carrito carrito;
 
 }
 
