@@ -1,7 +1,7 @@
 package com.carrito.carrito.controller;
 
 import com.carrito.carrito.model.Tipo_talla;
-import com.carrito.carrito.service.Tipo_tallaService;
+import com.carrito.carrito.Service.Tipo_tallaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

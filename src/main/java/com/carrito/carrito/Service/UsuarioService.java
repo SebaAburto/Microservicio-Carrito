@@ -1,4 +1,4 @@
-package com.carrito.carrito.service;
+package com.carrito.carrito.Service;
 
 import com.carrito.carrito.model.Usuario;
 import com.carrito.carrito.repository.UsuarioRepository;

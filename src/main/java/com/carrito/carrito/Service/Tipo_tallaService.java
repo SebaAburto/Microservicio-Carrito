@@ -1,7 +1,7 @@
-package com.inventario.inventario.service;
+package com.carrito.carrito.Service;
 
-import com.inventario.inventario.model.Tipo_talla;
-import com.inventario.inventario.repository.Tipo_tallaRepository;
+import com.carrito.carrito.model.Tipo_talla;
+import com.carrito.carrito.repository.Tipo_tallaRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.carrito.carrito.controller;
 
 import com.carrito.carrito.model.Usuario;
-import com.carrito.carrito.service.UsuarioService;
+import com.carrito.carrito.Service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

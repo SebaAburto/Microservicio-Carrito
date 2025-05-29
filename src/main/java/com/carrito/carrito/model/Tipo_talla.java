@@ -1,4 +1,4 @@
-package com.inventario.inventario.model;
+package com.carrito.carrito.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

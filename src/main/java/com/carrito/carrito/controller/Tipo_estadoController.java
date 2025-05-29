@@ -1,7 +1,7 @@
 package com.carrito.carrito.controller;
 
 import com.carrito.carrito.model.Tipo_estado;
-import com.carrito.carrito.service.Tipo_estadoService;
+import com.carrito.carrito.Service.Tipo_estadoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

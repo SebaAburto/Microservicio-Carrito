@@ -1,7 +1,7 @@
-package com.inventario.inventario.service;
+package com.carrito.carrito.Service;
 
-import com.inventario.inventario.model.Producto;
-import com.inventario.inventario.repository.ProductoRepository;
+import com.carrito.carrito.model.Producto;
+import com.carrito.carrito.repository.ProductoRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
