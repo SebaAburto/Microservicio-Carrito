@@ -1,5 +1,8 @@
 package com.carrito.carrito.Service;
 
+import com.carrito.carrito.model.Producto;
+import com.carrito.carrito.model.Tipo_estado;
+import com.carrito.carrito.model.Usuario;
 import com.carrito.carrito.model.Carrito;
 import com.carrito.carrito.repository.CarritoRepository;
 import jakarta.transaction.Transactional;

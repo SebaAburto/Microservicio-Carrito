@@ -1,5 +1,6 @@
 package com.carrito.carrito.Service;
 
+import com.carrito.carrito.model.Tipo_talla;
 import com.carrito.carrito.model.Producto;
 import com.carrito.carrito.repository.ProductoRepository;
 import jakarta.transaction.Transactional;
