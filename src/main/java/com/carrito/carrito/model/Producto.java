@@ -1,30 +1,22 @@
 package com.carrito.carrito.model;
 
 import java.util.Date;
-
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-
-
 
 @Entity
 @Table(name="Producto")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-
 
 public class Producto {
 
@@ -49,14 +41,8 @@ public class Producto {
 
     @Column(nullable = true)
     private Date fecha_creacion;
-    
-    @OneToOne
-    private Tipo_talla tipo_talla;
 
     @ManyToOne
-    @JoinColumn(name = "carrito_id")
-    private Carrito carrito;
+    private Tipo_talla tipo_talla;
 
 }
-
-
