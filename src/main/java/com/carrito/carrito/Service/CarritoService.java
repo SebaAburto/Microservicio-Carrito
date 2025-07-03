@@ -23,7 +23,8 @@ public class CarritoService {
     }
 
     public Carrito findById(Long id) {
-        return carritoRepository.findById(id).get();
+        return carritoRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Producto no encontrado"));
     }
 
     public Carrito save(Carrito carrito) {
@@ -32,5 +33,9 @@ public class CarritoService {
 
     public void delete(Long id) {
         carritoRepository.deleteById(id);
+    }
+
+    public List<Carrito> buscarPorTipoEstadoId(Integer tipoEstadoId) {
+    return carritoRepository.buscarPorTipoEstadoId(tipoEstadoId);
     }
 }
